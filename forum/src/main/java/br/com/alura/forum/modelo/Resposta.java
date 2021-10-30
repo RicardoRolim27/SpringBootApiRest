@@ -21,6 +21,10 @@ public class Resposta {
 	@ManyToOne
 	private Usuario autor;
 	private Boolean solucao = false;
+	
+	public Resposta() {
+		super();
+	}
 
 	@Override
 	public int hashCode() {
