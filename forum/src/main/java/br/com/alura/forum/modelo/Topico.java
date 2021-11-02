@@ -32,7 +32,6 @@ public class Topico {
 	private List<Resposta> respostas = new ArrayList<>();
 	
 	public Topico() {
-		super();
 	}
 
 	public Topico(String titulo, String mensagem, Curso curso) {
